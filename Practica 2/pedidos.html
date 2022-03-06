@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" Pastelería Dulce Delicia , variedad de pasteles">
+    <meta name="keywords" content="pasteleria, pastel">
+    <meta name="author" content="Isela Puentes Martinez / dulceReinaPasteleria">
+
+    <title>Pasteleria Dulce Delicia</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        .header {
+            padding: 10px;
+            /* some padding */
+            text-align: center;
+            /* center the text */
+            background: white;
+            /* green background */
+            color: white;
+            /* white text color */
+        }
+
+        /* Increase the font size of the h1 element */
+        .header h1 {
+            font-size: 30px;
+        }
+
+        /* Style the top navigation bar */
+        .navbar {
+            overflow: hidden;
+            background-color: #EFBEAF;
+        }
+
+
+        /* Style the navigation bar links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: #6A492C;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right;
+        }
+
+        /* Change color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="header">
+        <a href="index.html">
+            <img src="img/reposteria-logo.png" alt="DulceDeliciaPasteleria" class="center" width="300px">
+        </a>
+    </div>
+
+
+    <div class="navbar">
+        <a href="index.html" class="center">Inicio</a>
+        <a href="Pasteles.html">Pasteles</a>
+        <a href="Personalizar.html">Personaliza tu pastel</a>
+        <a href="Pedidos.html">Pedidos</a>
+        <a href="#">Contactanos</a>
+    </div>
+
+
+    <div class="row">
+        <div class="column">
+            <h3>Tradicionales</h3>
+            <img src="img/pasteles.png" alt="pastel1" style="width:50%">
+        </div>
+        <div class="column">
+            <h3>Personalizados</h3>
+            <img src="img/pastel_personalizado.png" alt="Forest" style="width:60%">
+        </div>
+
+    </div>
+
+</body>
+
+</html>
